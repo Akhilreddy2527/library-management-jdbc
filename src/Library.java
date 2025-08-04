@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class Library {
     private final String url = "jdbc:mysql://localhost:3306/library_db";
     private final String username = "root";
-    private final String password = "Akhil@1218";
+    private final String password = " ";
     private ArrayList<Book> books = new ArrayList<>();
 
     public void addBook(Book book){
